@@ -1,4 +1,4 @@
-######C4.5十折
+######C4.5
 library(e1071)
 #data_pp = read.csv("E:\\yangyingxi\\E.coli Mal_new\\R\\data\\data_pp.csv",sep=",",header = F);
 data1 = read.csv("CSV_str.csv",sep=",",header = F);

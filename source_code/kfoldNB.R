@@ -1,4 +1,4 @@
-##Bayes的十折
+##Bayes
 library(e1071)
 library(ROCR)
 l <- length(data_pp[,1])

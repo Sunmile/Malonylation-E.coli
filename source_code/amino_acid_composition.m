@@ -1,6 +1,5 @@
 function amino_composition=amino_acid_composition(Seq)
-%[a,b]=size(Seq);
-%Seq=Seq(:,[1:fix(b/2),fix(b/2)+2:end]);
+
 
 amino_composition=[];
 model=['A'    'R'    'N'    'D'    'C'    'Q'    'E'  ...

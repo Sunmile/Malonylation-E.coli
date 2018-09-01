@@ -1,4 +1,4 @@
-######C4.5十折
+######C4.5
 library(RWeka)
 library("party")
 

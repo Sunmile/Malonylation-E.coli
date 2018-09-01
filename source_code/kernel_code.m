@@ -1,9 +1,5 @@
 function kernel=kernel_code(positive_data,negtive_data,times,space)
-%建立核矩阵
-%positive_data 正类点序列矩阵，行数为序列条数
-%negtive_data  负类点序列矩阵，行数为序列条数
-%times 负类点序列矩阵随机抽取的次数
-%space 氨基酸对间隔数
+
 code_pos=[];
 for i=space
     code_pos=[code_pos;code_amino_pair(positive_data,i)];

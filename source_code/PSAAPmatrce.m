@@ -1,8 +1,8 @@
 function  Z=PSAAPmatrce(positive_data,negtive_data)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%统计正的样本中每个位置各种氨基酸的频率
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 [m_pos,n_pos]=size(positive_data);
-pos_score=zeros(21,n_pos);  %与PSDP的主要区别处pos_score=zeros(441,n_pos-1);
+pos_score=zeros(21,n_pos); 
 V=[];
 k=1;
 for i=1:n_pos
@@ -41,7 +41,3 @@ for i=1:m_score
         end
     end
 end
-%%%%%%%%%%%%%%%%%中间字符一样,所以去除的结果
-% b=size(Z,2);
-% Z(:,(fix(b/2)+1))=[];
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

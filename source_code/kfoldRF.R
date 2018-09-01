@@ -1,4 +1,4 @@
-###RF的十折
+###RF
 library(randomForest)
 l <- length(data_pp[,1])
 datard<- sample(1:l,l);#sub
